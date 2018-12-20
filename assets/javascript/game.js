@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 $('img').click(function() {
     currentScore += parseInt($(this).attr("value"));
-    $('#score').text(parseInt(currentScore));
+    $('#score').text(currentScore);
 
     if(currentScore == randomScore) {
         wins++;
